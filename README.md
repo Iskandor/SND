@@ -3,7 +3,7 @@ Self-supervised Network Destilation (SND) is class of intrinsic motivation algor
 
 ## Methods
 
-The decision making problem in the environment using reinforcement learning (RL) is formalized as a Markov decision process which consists of a state space $\mathcal{S}$, action space $\mathcal{A}$, transition function $\mathcal{T}_{s,a,s'} = p(s_{t+1} = s'|s_t = s, a_{t} = a)$, reward function $\mathcal{R}_{sas'}$ and a discount factor $\gamma$. The main goal of the agent is to maximize the discounted return
+The decision making problem in the environment using reinforcement learning (RL) is formalized as a Markov decision process which consists of a state space $\mathcal{S}$, action space $\mathcal{A}$, transition function $\mathcal{T}_{sas'}$ describing probabilities of transition from state $s$ to $s'$ given action $a$, reward function $\mathcal{R}_{sas'}$ asigning reward to transition and a discount factor $\gamma$. The main goal of the agent is to maximize the discounted return
 
 $$R_t = \sum_{k=0}^\infty \gamma^k r_{t+k}$$
 
