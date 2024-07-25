@@ -130,11 +130,13 @@ Michal Chovanec [michalnand@gmail.com](mailto:michalnand@gmail.com)
 
 ## Citation
 ```
-@article{pechac2023exploration,
-  title={Exploration by self-supervised exploitation},
+@article{pechavc2024self,
+  title={Self-supervised network distillation: An effective approach to exploration in sparse reward environments},
   author={Pech{\'a}{\v{c}}, Matej and Chovanec, Michal and Farka{\v{s}}, Igor},
-  journal={arXiv preprint arXiv:2302.11563},
-  year={2023}
+  journal={Neurocomputing},
+  pages={128033},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
